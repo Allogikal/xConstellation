@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "tailwindcss": "^3.4.16"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "production": "terser C:/OSPanel/domains/xConstellation/assets/scripts/modules/videoModal.js -o C:/OSPanel/domains/xConstellation/assets/scripts/modules/videoModal.min.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
